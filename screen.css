@@ -5,16 +5,18 @@ html {
   text-size-adjust: 100%;
   font-size: 18px;
   line-height: 24px;
-  background-color: #344152; /*oxford blue*/
   color: black;
-  background:url('background.jpg') /*is this the most efficient way?*/;
+  background:url('background.jpg') /*The image is not to scale*/;
+  background-size: 100%;
 }
 h1{ /*figure out how to format text background*/
   font-size: 36px;
   line-height: 42px;
   margin-top: 6px;
+  background-color: #98AFC7; /*text background is extending to entire page. Needs to be fixed*/
 }
 p {
   color: black;
   margin-top: 6px;
+  background-color: #98AFC7;
 }
