@@ -1,0 +1,11 @@
+html {
+ /*Work more with tweaking technical aspect of the design*/
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #344152; /*oxford blue*/
+  color: #F0FFFF; /*twilight blue*/
+}
