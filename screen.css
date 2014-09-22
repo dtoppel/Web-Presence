@@ -1,5 +1,4 @@
 html {
- /*Work more with tweaking technical aspect of the design*/
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -7,5 +6,15 @@ html {
   font-size: 18px;
   line-height: 24px;
   background-color: #344152; /*oxford blue*/
-  color: #F0FFFF; /*twilight blue*/
+  color: black;
+  background:url('background.jpg') /*is this the most efficient way?*/;
+}
+h1{ /*figure out how to format text background*/
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 6px;
+}
+p {
+  color: black;
+  margin-top: 6px;
 }
