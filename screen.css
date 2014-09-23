@@ -14,6 +14,7 @@ h1{ /*figure out how to format text background*/
   line-height: 42px;
   margin-top: 6px;
   background-color: #98AFC7; /*text background is extending to entire page. Needs to be fixed*/
+  background-size: 100%;
 }
 p {
   color: black;
