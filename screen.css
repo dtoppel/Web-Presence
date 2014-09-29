@@ -1,5 +1,5 @@
 html {
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; /*Stylize font styles*/
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -7,20 +7,62 @@ html {
   line-height: 24px;
   color: black;
   background:url('background.JPG');
+<<<<<<< HEAD
+  background-repeat: no-repeat;
+=======
+>>>>>>> origin/master
   background-size: 100%;
+  background-color: #CAE1FF;
 }
-h1{ /*figure out how to format text background*/
+figure {
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-color: #98AFC7;
+  border-style: ridge;
+  border-color:black;
+  border-width: 4px;
+  padding: 8px;
+  opacity:.85;
+  /*having alignment issues. I need to make the images show up in a grid format, not on top of each other one by one*/
+  /*come up with selections for a few images to showcase on website*/
+}
+img {
+  max-width: 25%;
+}
+
+h1{
   font-size: 36px;
   line-height: 42px;
   margin-top: 6px;
-  background-color: #98AFC7; /*text background is extending to entire page. Needs to be fixed*/
+  background-color: #98AFC7;
+  border-style: ridge;
+  border-color:black;
+  border-width: 4px;
+  padding: 8px;
+  opacity:.85;
 }
+
 p {
   color: black;
   margin-top: 6px;
   background-color: #98AFC7;
+  border-style: ridge;
+  border-color:black;
+  border-width: 4px;
+  padding: 8px;
+  opacity:.85;
 }
+
 footer{
   font-size: 12px;
   margin-top: 6px;
   background-color: #98AFC7;
+<<<<<<< HEAD
+  border-style: ridge;
+  border-color:black;
+  border-width: 4px;
+  opacity:.85;
+}
+=======
+>>>>>>> origin/master
