@@ -7,12 +7,9 @@ html {
   line-height: 24px;
   color: black;
   background:url('background.JPG');
-<<<<<<< HEAD
-  background-repeat: no-repeat;
-=======
->>>>>>> origin/master
   background-size: 100%;
   background-color: #CAE1FF;
+  background-repeat: no-repeat;
 }
 figure {
   padding: 0;
@@ -58,11 +55,8 @@ footer{
   font-size: 12px;
   margin-top: 6px;
   background-color: #98AFC7;
-<<<<<<< HEAD
   border-style: ridge;
   border-color:black;
   border-width: 4px;
   opacity:.85;
 }
-=======
->>>>>>> origin/master
