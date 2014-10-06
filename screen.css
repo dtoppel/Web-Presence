@@ -6,26 +6,31 @@ html {
   font-size: 18px;
   line-height: 24px;
   color: black;
-  background:url('background.JPG');
+  background-image:url(background.JPG);
   background-size: 100%;
   background-color: #CAE1FF;
   background-repeat: no-repeat;
+  font-family: Arial
 }
 figure {
-  padding: 0;
-  margin: 0;
   display: block;
   background-color: #98AFC7;
   border-style: ridge;
   border-color:black;
-  border-width: 4px;
-  padding: 8px;
-  opacity:.85;
-  /*having alignment issues. I need to make the images show up in a grid format, not on top of each other one by one*/
+  border-width: 4px;;
+  opacity:.85; /*images are also slightly transparent. Needs to be fixed.*/
+  text-align:center;
+  margin-top:8px;
+  font-size: 12px;
+  padding:8px;
+
   /*come up with selections for a few images to showcase on website*/
 }
 img {
-  max-width: 25%;
+  max-width: 40%;
+  border-style: groove;
+  border-color:black;
+  border-width: 4px;
 }
 
 h1{
@@ -40,17 +45,33 @@ h1{
   opacity:.85;
 }
 
-p {
-  color: black;
-  margin-top: 6px;
+h2{  font-size: 36px;
+  line-height: 42px;
+  margin-top: 8px;
+  margin-bottom: 0px;
   background-color: #98AFC7;
   border-style: ridge;
   border-color:black;
   border-width: 4px;
   padding: 8px;
   opacity:.85;
+  text-align:center;
 }
 
+p {
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding:8px;
+}
+
+div {
+  background-color: #98AFC7;
+  border-style: ridge;
+  border-color:black;
+  border-width: 4px;
+  opacity:.85;
+}
 footer{
   font-size: 12px;
   margin-top: 6px;
@@ -60,3 +81,8 @@ footer{
   border-width: 4px;
   opacity:.85;
 }
+figcaption{
+  margin-bottom: 8px;
+}
+
+
